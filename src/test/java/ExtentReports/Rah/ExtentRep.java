@@ -28,6 +28,7 @@ public class ExtentRep {
 		ExtentTest test =extent.createTest("Initial Demo");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.amazon.com/");
+		System.out.println("InitialDemo");
 		System.out.println(driver.getTitle());
 		test.fail("Results not match");
 		extent.flush();
