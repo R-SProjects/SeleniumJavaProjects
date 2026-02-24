@@ -30,6 +30,7 @@ public class ExtentRep {
 		driver.get("https://www.amazon.com/");
 		System.out.println("InitialDemo");
 		System.out.println(driver.getTitle());
+		System.out.println("Got the report");
 		test.fail("Results not match");
 		extent.flush();
 	}
