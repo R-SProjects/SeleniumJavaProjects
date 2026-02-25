@@ -36,6 +36,7 @@ public class ExtentRep {
 		System.out.println("ABC");
 		System.out.println("Got the Abc");
 		test.fail("Results not match");
+		System.out.println("denmark");
 		extent.flush();
 	}
 
