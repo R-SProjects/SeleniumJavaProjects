@@ -20,6 +20,8 @@ public class ExtentRep {
 		reporter.config().setDocumentTitle("New TiTle");
 		extent=new ExtentReports();
 		extent.attachReporter(reporter);
+		System.out.println("ABC");
+		System.out.println("Got  Abc");
 		extent.setSystemInfo("Tester", "Roopa");
 	}
 	
@@ -31,6 +33,8 @@ public class ExtentRep {
 		System.out.println("InitialDemo");
 		System.out.println(driver.getTitle());
 		System.out.println("Got the report");
+		System.out.println("ABC");
+		System.out.println("Got the Abc");
 		test.fail("Results not match");
 		extent.flush();
 	}
