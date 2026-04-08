@@ -1,2 +1,2 @@
 ﻿# SeleniumJavaProjects
- This automation framework logins to a ecommerce website,order  ,confirm the order and pay for the same.It is hybrid framework ,uses POM for pages .Seperates test classes  from data which are driven through Excel and Json.  TESTNG is the main frameowrk and uses cucumber wrapper on the top for usability.maven is the build tool and CI/CD is done via Jenkins.
+ This automation framework logins to a ecommerce website,orders ,confirms the order and pay for the same.It uses a hybrid framework ,uses POM for pages .We have seperated test classes  from the data which in turn are driven through Excel and Json.  TESTNG is the main frameowrk and uses cucumber wrapper on the top for usability.Maven is the build tool and CI/CD is done via Jenkins.
